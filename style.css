@@ -266,14 +266,13 @@ h3 {
 }
 @media screen and (max-width: 868px) {
   .nav-bar {
-    position: relative;
     isolation: isolate;
   }
   .nav-bar .links-btn {
     display: block !important;
   }
   .nav-bar .links {
-    position: fixed;
+    position: absolute;
     top: -100vh;
     left: 0;
     width: 100%;
